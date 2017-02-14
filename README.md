@@ -11,10 +11,6 @@ Syntax highlighting for `.gitconfig`, `.gitattributes`, and `.gitmodules` files.
 
 See `CHANGELOG.md` for more in-depth notes.
 
-### `0.0.2`
-
-Adds GitHub repository and `CHANGELOG.md`
-
-### `0.0.1`
+### `1.0.0`
 
 Initial release
