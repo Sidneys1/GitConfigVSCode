@@ -11,6 +11,14 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>comment</key>
+			<string>Comments</string>
+			<key>match</key>
+			<string>#.*</string>
+			<key>name</key>
+			<string>comment.gitconfig</string>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -22,7 +30,7 @@
 			<key>comment</key>
 			<string>Section headings</string>
 			<key>match</key>
-			<string>^\[[^]"]*("\w+")?\]</string>
+			<string>^\[[\w\.-]+(\s\"[\w\\(\\\")(\\\\)]+\")?\]</string>
 			<key>name</key>
 			<string>entity.gitconfig</string>
 		</dict>
@@ -43,17 +51,9 @@
 			<key>comment</key>
 			<string>Setting</string>
 			<key>match</key>
-			<string>([^=]+)\s*=\s*([^#]*)</string>
+			<string>^\s+(\w[\w-]+)\s*=\s*([^#]*)</string>
 			<key>name</key>
 			<string>support.gitconfig</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Comments</string>
-			<key>match</key>
-			<string>#.*</string>
-			<key>name</key>
-			<string>comment.gitconfig</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

@@ -11,6 +11,10 @@ Syntax highlighting for `.gitconfig`, `.gitattributes`, and `.gitmodules` files.
 
 See `CHANGELOG.md` for more in-depth notes.
 
+### `1.0.1`
+
+Cleanup related to comments, improved matching of section headers.
+
 ### `1.0.0`
 
 Initial release

@@ -2,7 +2,7 @@
     "name": "gitconfig",
     "displayName": "Gitconfig Syntax",
     "description": "Adds syntax highlighting support for Git config files",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "sidneys1",
     "repository": {
         "type": "git",
