@@ -51,7 +51,7 @@
 			<key>comment</key>
 			<string>Setting</string>
 			<key>match</key>
-			<string>^\s+(\w[\w-]+)\s*=\s*([^#]*)</string>
+			<string>^\s+(\w[\w-]*)\s*=\s*([^#]*)</string>
 			<key>name</key>
 			<string>support.gitconfig</string>
 		</dict>

@@ -2,7 +2,7 @@
     "name": "gitconfig",
     "displayName": "Gitconfig Syntax",
     "description": "Adds syntax highlighting support for Git config files",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "publisher": "sidneys1",
     "repository": {
         "type": "git",
@@ -12,7 +12,7 @@
         "vscode": "^1.5.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [
@@ -23,6 +23,7 @@
                     "gitconfig"
                 ],
                 "extensions": [
+                    "config",
                     ".gitconfig",
                     ".gitmodules",
                     ".gitattributes"
