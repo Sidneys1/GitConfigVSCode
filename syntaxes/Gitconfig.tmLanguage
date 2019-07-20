@@ -14,7 +14,7 @@
 			<key>comment</key>
 			<string>Comments</string>
 			<key>match</key>
-			<string>#.*</string>
+			<string>(#|;).*</string>
 			<key>name</key>
 			<string>comment.gitconfig</string>
 		</dict>
