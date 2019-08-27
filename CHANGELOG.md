@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.0.1] - 2019-08-27
+
+- Added `;` to the list of single-line comment characters.
+
 ## [2.0.0] - 2018-08-21
 
 - Added `config` to the list of supported extensions
